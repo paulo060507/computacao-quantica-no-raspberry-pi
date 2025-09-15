@@ -1,0 +1,25 @@
+name: Bug report
+description: Reporte um problema
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: textarea
+    attributes:
+      label: Descrição
+      description: Descreva o problema
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduzir
+      description: Passos para reproduzir
+      value: |
+        1. 
+        2. 
+        3. 
+  - type: input
+    attributes:
+      label: Versão/ambiente
+      description: versão, SO, hardware

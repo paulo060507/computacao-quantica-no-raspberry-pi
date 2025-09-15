@@ -1,0 +1,19 @@
+name: Feature request
+description: Sugira uma melhoria
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: textarea
+    attributes:
+      label: Motivação
+      description: Qual problema resolver?
+  - type: textarea
+    attributes:
+      label: Proposta
+      description: Descreva a solução desejada
+  - type: textarea
+    attributes:
+      label: Alternativas
+      description: Outras ideias consideradas
